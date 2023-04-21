@@ -4,8 +4,8 @@ import { Outlet, Link } from "react-router-dom";
 import CartIcon from "../../components/cart-icon/cart-icon.component";
 import CartDropdown from "../../components/cart-dropdown/cart-dropdown.component";
 
-import { UserContext } from "../../components/context/user.context";
-import { CartContext } from "../../components/context/cart.content";
+import { UserContext } from "../../context/user.context";
+import { CartContext } from "../../context/cart.content";
 
 import { ReactComponent as CrwnLogo } from "../../assets/crown.svg";
 import { signOutUser } from "../../utils/firebase/firebase.utils";
